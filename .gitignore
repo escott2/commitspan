@@ -1,0 +1,19 @@
+# Node Modules
+
+node_modules
+
+# Backend Secrets
+
+/commitspan-backend/.env
+/commitspan-backend/.env.\*
+.env.local
+
+# Frontend
+
+/commitspan-frontend/node_modules
+/commitspan-frontend/.env.local
+
+# Build folders
+
+/commitspan-backend/dist
+/commitspan-frontend/build

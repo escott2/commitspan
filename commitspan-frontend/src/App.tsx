@@ -1,7 +1,13 @@
+import { Header } from "./components/Layout";
+import { Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <>
-      <h1>CommitSpan</h1>
+      <Header />
+      <Routes>
+        <Route path="/" element={<div>Home</div>} />
+      </Routes>
     </>
   );
 }
